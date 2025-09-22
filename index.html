@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+
+  <title>CellStart - Landing Page</title>
+</head>
+  <body>
+  <!-- HEADER / NAVBAR -->
+<header class="header">
+  <!-- Logo Image -->
+  <div class="logo">
+    <a href="#home">
+      <img src="img/Slide 4 Logo 2.png" alt="CellStart Logo">
+    </a>
+  </div>
+
+  <!-- Navigation Links -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#content">Content</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- HERO BANNER -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Revolutionize Cellular Health with <span>ChronoNAD+</span></h1>
+      <p>CellStart’s cutting-edge ChronoNAD+ supports your cells’ natural energy production and longevity — helping you feel and perform at your best every day.</p>
+      <a href="#features" class="btn">Start Your Transformation</a>
+    </div>
+    <div class="hero-image">
+      <!-- Replace src with your product image -->
+      <img src="img/Slide 4 Product.png" alt="ChronoNAD+ Bottle">
+    </div>
+  </header>
+
+  <!-- NAD+ Section -->
+<section class="nad-section">
+  <h2 class="nad-heading">Why Is NAD+ Your Cellular Fuel?</h2>
+
+  <div class="nad-features">
+    <div class="nad-feature">
+      <div class="icon">⚡</div>
+      <h3>Energy Production</h3>
+      <p>NAD+ is a key driver of metabolism, helping your body turn food into usable energy for every cell.</p>
+    </div>
+    <div class="nad-feature">
+      <div class="icon">🧬</div>
+      <h3>DNA Repair</h3>
+      <p>It helps power your body’s natural processes to fix damaged DNA and keep your cells healthy.</p>
+    </div>
+    <div class="nad-feature">
+      <div class="icon">🛡️</div>
+      <h3>Cellular Defense</h3>
+      <p>NAD+ activates important “longevity” genes that help your body fight off stress and maintain overall wellness.</p>
+    </div>
+  </div>
+
+</section>
+<section class="nad-graph-section">
+  <h2>NAD+ Declines by Up to 65% Between Ages 30 and 70</h2>
+  <p>Relative NAD+ Levels</p>
+
+  <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid meet">
+    <!-- Horizontal Grid Lines -->
+    <line x1="80" y1="60" x2="580" y2="60" class="grid-line"/>
+    <line x1="80" y1="120" x2="580" y2="120" class="grid-line"/>
+    <line x1="80" y1="180" x2="580" y2="180" class="grid-line"/>
+    <line x1="80" y1="240" x2="580" y2="240" class="grid-line"/>
+    <line x1="80" y1="300" x2="580" y2="300" class="grid-line"/>
+
+    <!-- Y-Axis Labels -->
+    <text x="40" y="64" class="nad-label">100%</text>
+    <text x="40" y="124" class="nad-label">75%</text>
+    <text x="40" y="184" class="nad-label">50%</text>
+    <text x="40" y="244" class="nad-label">25%</text>
+    <text x="40" y="304" class="nad-label">0%</text>
+
+    <!-- X-Axis Labels -->
+    <text x="110" y="340" class="nad-label">20s</text>
+    <text x="210" y="340" class="nad-label">30s</text>
+    <text x="310" y="340" class="nad-label">40s</text>
+    <text x="410" y="340" class="nad-label">50s</text>
+    <text x="510" y="340" class="nad-label">70s</text>
+
+    <!-- Stepped Line Path -->
+    <path class="line-path" d="M110,60 L210,100 L310,160 L410,200 L510,240"/>
+
+    <!-- Area Fill -->
+    <path class="area-fill" d="M110,60 L210,100 L310,160 L410,200 L510,240 L510,300 L110,300 Z"/>
+
+    <!-- Dots -->
+    <circle class="nad-dot" cx="110" cy="60" />
+    <circle class="nad-dot" cx="210" cy="100" />
+    <circle class="nad-dot" cx="310" cy="160" />
+    <circle class="nad-dot" cx="410" cy="200" />
+    <circle class="nad-dot" cx="510" cy="240" />
+  </svg>
+
+  <p class="nad-footer">
+    By middle age, our NAD+ levels can plummet to half of what they were in our youth.<br>
+    <span class="nad-source">Source: Massudi et al., PLoS ONE, 2012; Jinfiniti Health Report.</span>
+  </p>
+</section>
+<section class="product-section">
+  <!-- Logos -->
+  <div class="logos">
+    <h3>Logos</h3>
+    <img src="img/Slide 4 Logo 1.png" alt="CellStart Logo Light">
+    <img src="img/Slide 4 Logo 2.png" alt="CellStart Logo Dark">
+  </div>
+
+  <!-- Product -->
+  <div class="product">
+    <img src="img/Slide 4 Product.png" alt="ChronoNAD+ Bottle">
+    <div class="product-details">
+      <h3>Main product, ChronoNAD+:</h3>
+      <strong>Product Description:</strong>
+      <p>
+        ChronoNAD+ is a dietary supplement taken once a day. As we age, our NAD+ levels
+        decline, impacting our cellular health and energy. Our supplement is designed
+        to restore these levels, helping you feel more vibrant and energized.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- TESTIMONIAL SECTION -->
+<section class="testimonials">
+  <h2 class="testimonial-heading">What Our Customers Say</h2>
+  <div class="testimonial-grid">
+
+    <div class="testimonial">
+      <p class="quote">“Within weeks, I felt an incredible boost in energy and focus.”</p>
+      <p class="author">– Alex R.</p>
+    </div>
+
+    <div class="testimonial">
+      <p class="quote">“ChronoNAD+ is a game-changer for my recovery routine.”</p>
+      <p class="author">– Priya S.</p>
+    </div>
+
+    <div class="testimonial">
+      <p class="quote">“I feel younger and more vibrant every day.”</p>
+      <p class="author">– Daniel M.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="infographic-section">
+  <div class="infographic">
+    <img src="img/Slide 8 Infographic 1.gif" alt="Increase in NAD+ in Key Tissues - NAD+ Alone vs NAD+ with Resveratrol">
+  </div>
+  <div class="infographics">
+    <img src="img/Slide 8 Infographic 2.gif" alt="Scientific Study Reference">
+  </div>
+</section>
+<section class="imagery-section">
+  <h1 class="imagery-title">Imagery Style List</h1>
+
+ 
+
+  <div class="imagery-grid">
+    <!-- Luxury Premium -->
+    <div class="block-luxury tooltip">
+      <h2 class="title-luxury">1. Luxury/Premium</h2>
+      <div class="img-wrapper-luxury">
+        <img src="img/luxury.jpg" alt="Luxury Premium Style">
+      </div>
+      <span class="tooltip-text">Premium imagery with elegance and minimalism</span>
+    </div>
+
+    <!-- Bold Playful Wellness -->
+    <div class="block-wellness tooltip">
+      <h2 class="title-wellness">2. Bold, Playful “Wellness With Attitude”</h2>
+      <div class="img-wrapper-wellness">
+        <img src="img/attitude.jpg" alt="Wellness Style">
+      </div>
+      <span class="tooltip-text">Playful style with bold colors and quirky vibe</span>
+    </div>
+
+    <!-- Authentic Inclusive Lifestyle -->
+    <div class="block-authentic tooltip">
+      <h2 class="title-authentic">3. Authentic & Inclusive Lifestyle</h2>
+      <div class="img-wrapper-authentic">
+        <img src="img/lifestyle.jpg" alt="Inclusive Lifestyle">
+      </div>
+      <span class="tooltip-text">Real, diverse, inclusive lifestyle moments</span>
+    </div>
+  </div>
+</section>
+<!-- CONTACT / FOOTER SECTION -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:info@cellstart.com">info@cellstart.com</a></p>
+      <p>Phone: +1 (555) 123-4567</p>
+      <p>Address: 123 Innovation Way, Biotech City</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#science">Science</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 CellStart. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const sections = document.querySelectorAll("section");
+
+  const revealOnScroll = () => {
+    sections.forEach(sec => {
+      const secTop = sec.getBoundingClientRect().top;
+      const winHeight = window.innerHeight - 100; // trigger point
+      if (secTop < winHeight) {
+        sec.classList.add("show");
+      }
+    });
+  };
+  
+
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll(); // run once on load
+</script>
+  </body>
+  </html>
+
+
+  
